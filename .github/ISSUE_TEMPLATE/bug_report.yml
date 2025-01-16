@@ -1,0 +1,14 @@
+name: 버그리포트
+description: 버그를 발견하면 알려주세요
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그의 상세 내용을 작성해주세요:
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: Describe how to reproduce the issue
